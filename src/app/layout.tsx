@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@/app/globals.css";
 import About from "@/components/About";
 import Member from "@/components/Member";
+import Gallery from "@/components/Gallery";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,8 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
         <body>
-          {/* <About/> */}
-          <Member/>
+          <Gallery/>
         </body>
     </html>
   );

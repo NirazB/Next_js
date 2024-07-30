@@ -24,7 +24,7 @@ const data =[
     id:2,
     name:"Sudip Parajuli",
     img:"/member/VPresident.jpg",
-    review:"Vice-President",
+    review:"Advisor",
     fbLink: "https://facebook.com",
     githubLink: "https://github.com",
     instaLink: "https://instagram.com",
@@ -76,7 +76,7 @@ const Member = () => {
   return (
     <div className="w-[70%]  m-auto text-center">
       <h1 className='text-white font-bold text-xl mt-10'>MEMBERS</h1>
-      <h2 className='text-white'>11th EXCESS Comitte Member</h2>
+      <h2 className='text-white'>11th EXCESS Commttee Member</h2>
       <div className="mt-5">
       <Swiper
           spaceBetween={5}
